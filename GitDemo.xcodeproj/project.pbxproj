@@ -14,7 +14,7 @@
 		C0A4F5CB1B8D700400B0097C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A4F5CA1B8D700400B0097C /* Images.xcassets */; };
 		C0A4F5CE1B8D700400B0097C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A4F5CC1B8D700400B0097C /* LaunchScreen.xib */; };
 		C0A4F5DA1B8D700500B0097C /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A4F5D91B8D700500B0097C /* GitDemoTests.m */; };
-		C0A4F5E51B8D7F8000B0097C /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A4F5E41B8D7F8000B0097C /* TestClass.m */; };
+		C0A4F5EB1B8D8E1300B0097C /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A4F5EA1B8D8E1300B0097C /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		C0A4F5D31B8D700500B0097C /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4F5D81B8D700500B0097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A4F5D91B8D700500B0097C /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
-		C0A4F5E31B8D7F8000B0097C /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = ../TestClass.h; sourceTree = "<group>"; };
-		C0A4F5E41B8D7F8000B0097C /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = ../TestClass.m; sourceTree = "<group>"; };
+		C0A4F5E91B8D8E1300B0097C /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		C0A4F5EA1B8D8E1300B0097C /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			children = (
 				C0A4F5C11B8D700400B0097C /* AppDelegate.h */,
 				C0A4F5C21B8D700400B0097C /* AppDelegate.m */,
-				C0A4F5E31B8D7F8000B0097C /* TestClass.h */,
-				C0A4F5E41B8D7F8000B0097C /* TestClass.m */,
+				C0A4F5E91B8D8E1300B0097C /* TestClass.h */,
+				C0A4F5EA1B8D8E1300B0097C /* TestClass.m */,
 				C0A4F5C41B8D700400B0097C /* ViewController.h */,
 				C0A4F5C51B8D700400B0097C /* ViewController.m */,
 				C0A4F5C71B8D700400B0097C /* Main.storyboard */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A4F5E51B8D7F8000B0097C /* TestClass.m in Sources */,
+				C0A4F5EB1B8D8E1300B0097C /* TestClass.m in Sources */,
 				C0A4F5C61B8D700400B0097C /* ViewController.m in Sources */,
 				C0A4F5C31B8D700400B0097C /* AppDelegate.m in Sources */,
 				C0A4F5C01B8D700400B0097C /* main.m in Sources */,
