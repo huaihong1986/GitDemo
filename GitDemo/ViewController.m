@@ -37,6 +37,6 @@
     NSLog(@"Hello");
 }
 -(void)sayByeBye{
-    NSLog(@"Bye   Bye");
+    NSLog(@"Bye  Bye");
 }
 @end
