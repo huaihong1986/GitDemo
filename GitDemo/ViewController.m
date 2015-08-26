@@ -11,6 +11,7 @@
 @interface ViewController ()
 -(void)sayHello;
 -(void)sayByeBye;
+-(void)test;
 @end
 
 @implementation ViewController
@@ -38,5 +39,8 @@
 }
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
+}
+-(void)test{
+    NSLog(@"test");
 }
 @end
