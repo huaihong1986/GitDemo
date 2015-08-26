@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+-(void)sayHello;
 -(void)sayByeBye;
 @end
 
